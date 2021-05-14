@@ -327,8 +327,9 @@ h2{
     z-index: 1;
     overflow: hidden;
     padding: 30px;
-    transform: translateX(-500px);
-    transition: transform 0.5s ease-in-out;
+    transform: translatex(-1000px);
+    transition: all .5s;
+    transition: transform 0.1s ease-in-out;
   }
 
   .nav-main ul.nav-menu li {
